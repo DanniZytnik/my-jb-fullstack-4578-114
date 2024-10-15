@@ -1,0 +1,101 @@
+body {
+    border: 1px solid red;
+}
+
+html {
+    border: 1px solid blue;
+
+}
+
+
+h1 {
+    color:green;
+    background-color:yellow;
+}
+
+p {
+    color: red;
+    border:1px dotted blue;
+}
+
+.cool-design {
+    color:blue;
+    background-color:red;
+}
+
+p.cool-design {
+    text-decoration: underline;
+}
+
+.cool-design-big {
+    font-size:xx-large;
+    font-weight:bold;
+
+}
+
+#last-paragraph {
+    font-size:xx-small;
+    text-decoration: underline;
+    font-style:italic
+
+}
+
+
+
+input[placeholder] {
+    background-color: yellow;
+}
+
+
+input[placeholder="first name"] {
+    background-color: yellow;
+    border:3px dashed
+
+}
+
+
+a { 
+    color: yellow;
+
+}
+
+a:hover{
+    color:green;
+}
+
+a:visited {
+    color:red;
+}
+
+p::first-line {
+    background-color:blueviolet;
+}
+
+p::first-letter {
+    font-size: x-large;
+    color:cyan;
+
+}
+.span {
+    color:rgb(12, 5, 5);
+}
+
+p.cool-design {
+    text-decoration: underline;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* all a tags have a parents p if there is no , */
+p, a {
+    color:black;
+}
+
+p > a {
+    border: 3px dashed grey;
+}

@@ -1,0 +1,46 @@
+h1 {
+    color: green;
+    background-color: aqua;
+
+}
+
+p{
+    color: red
+}
+
+
+.cool-design {
+    color: green;
+    background-color: rgb(15, 4, 31);
+
+}
+
+.cool-design-big{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.cool-design-small{
+    font-size: xx-small;
+}
+
+#last-paragraph{
+    font-size: xx-small;
+    font-style: italic;
+
+}
+
+
+input[placeholder] {
+    background-color: yellow;
+}
+
+input[placeholder="first name"] {
+    border: 3px dashed;
+}
+
+
+a {
+    color: yellow
+}

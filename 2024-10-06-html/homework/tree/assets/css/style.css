@@ -1,0 +1,73 @@
+.header-text {
+    text-align: center; /* ממקם את הכותרת במרכז */
+    color: brown; /* צבע הטקסט */
+}
+
+.welcome-text {
+    text-align: center; /* ממקם את הטקסט במרכז */
+    font-size: larger; /* גודל הטקסט */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* משפחת פונטים */
+}
+
+body {
+    background-image: url('jGlzr.png'); /* התמונה נמצאת באותה תיקייה כמו קובץ ה-CSS */
+    background-repeat: no-repeat; /* מבטל חזרה על התמונה */
+    background-position: center; /* ממרכז את התמונה */
+    background-size: cover; /* מכסה את כל הרקע */
+}
+
+#img-container {
+    display: flex; /* הופך את ה-container לתצוגת Flexbox */
+    justify-content: center; /* מרכז את התמונות */
+    margin-top: 80px; /* רווח מעל התמונות */
+}
+
+#img-container img {
+    width: 150px; /* רוחב קבוע לכל התמונות */
+    height: 150px; /* גובה קבוע לכל התמונות */
+    object-fit: cover; /* שומר על פרופורציות התמונה */
+    margin: 0; /* מבטל את המרווח בין התמונות */
+}
+
+form {
+    border: 2px solid #000; /* גבול שחור של 2 פיקסלים */
+    padding: 1px; /* רווח פנימי סביב הטופס */
+    background-color: transparent; /* שקיפות מלאה */
+    border-radius: 5px; /* מעגל את הפינות של המלבן */
+    width: 280px; /* קובע רוחב קבוע לטופס */
+    margin: 20px 0 20px auto; /* רווח מעל ומתחת, אוטומטי מימין */
+}
+
+.login-table {
+    width: 100%;                         /* קובע רוחב של 100% לטבלה */
+    border-collapse: collapse;             /* מבטל מרווחים בין גבולות התאים */
+    
+}
+
+
+
+
+td {
+    text-align: right;                   /* ממקם את הטקסט בצד ימין */
+    padding: 1px;                        /* רווח פנימי מופחת בין התוכן לגבולות התא */
+    margin: 0;                           /* מבטל את המרווח החיצוני */
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: yellow; /* צבע הרקע צהוב */
+    border: 1px solid #ccc; /* גבול דק כדי לשמור על עיצוב */
+    padding: 1px; /* רווח פנימי */
+    width: calc(100% - 12px); /* מוודא שהשדה תופס את כל הרוחב */
+}
+
+.login-button {
+    margin-top: 1px; /* רווח מעל הכפתור */
+    width: auto; /* קובע רוחב אוטומטי */
+    text-align: left; /* ממקם את הכפתור לשמאל */
+    float: left; /* מעביר את כפתור הכניסה לצד שמאל */
+}
+
+html, body{
+    direction:ltr;
+}

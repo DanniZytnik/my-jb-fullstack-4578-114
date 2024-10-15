@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>חנות החיות המגניבה בארץ</h1>
+    <br>
+    <br>
+    <hr>
+    <div class="link-container">
+        <a href="/index.html" class="links">דף הבית</a>
+        <a href="/animals.html" class="links">חיות</a>
+        <a href="/contact.html" class="links">צור קשר</a>
+    </div>
+
+    <h1>:צור קשר</h1>
+    <hr>
+    <div class="table-container">
+    <form action="save.html" method="post"> <!-- הכוון לדף שבו תישמר המידע -->
+        
+            <table>
+                <tr>
+                    <td><input id="ok" type="text" required></td>
+                    <td><label for="ok">:שם פרטי</label></td>
+                </tr>
+                <tr>
+                    <td><input id="okk" type="text" required></td>
+                    <td><label for="okk">:שם משפחה</label></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="radio" id="male" name="gender" value="male"><label for="male">גבר</label></td>
+                    <td>
+                        
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">נקבה</label>
+                        <td>:מין</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><select id="city" name="city" required>
+                        <option value="" disabled selected>בחר עיר</option>
+                        <option value="raanana">רעננה</option>
+                        <option value="tel-aviv">תל אביב</option>
+                        <option value="haifa">חיפה</option>
+                        <option value="eilat">אילת</option>
+                    </select></td>
+                    <td>
+                        
+                        <label for="city">:עיר</label>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">שלח</button> <!-- כפתור לשליחה -->
+        
+    </form>
+</div>

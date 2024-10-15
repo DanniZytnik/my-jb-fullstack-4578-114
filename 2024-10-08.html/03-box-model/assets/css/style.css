@@ -1,0 +1,10 @@
+div {
+    text-align: center;
+    margin:50px;
+    padding: 20px;
+    border:10px solid blue;
+    height: 150 px;
+    width: 300px;
+    
+    box-sizing: border-box;
+}
